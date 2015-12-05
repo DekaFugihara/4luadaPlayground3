@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+  <link rel="stylesheet" href="../assets/stylesheets/style.css">
+  <link rel="stylesheet" href="../assets/stylesheets/dota.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+  <script src="../assets/javascripts/scripts.js" type="text/javascript"></script>
+  <title>4luada Playground</title>
+</head>
+<body>
+
+<div data-role="page" class="toolbar-spacing" id="dota2-bristleback" data-title="Dota 2">
+  <div data-role="header" data-position="fixed">
+    <a href="index.html" class="ui-btn ui-btn-left ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back">Voltar</a>
+    <h1>Bristleback</h1>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+
+    <div class="dota-stats ui-grid-a">
+      <div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        <ul data-role="listview">
+          <li class="str primary ui-bar">22 + 2.20</li>
+          <li class="agi ui-bar">17 + 1.80</li>
+          <li class="int ui-bar">14 + 2.80</li>
+        </ul>
+      </div></div>
+      <div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        <ul data-role="listview">
+          <li class="atk ui-bar">26 - 36</li>
+          <li class="spd ui-bar">290</li>
+          <li class="def ui-bar">3.38</li>
+        </ul>
+      </div></div>
+    </div>
+
+    <div class="dota-items">
+      <h3 class="ui-bar ui-bar-a ui-corner-all">Bristleback Items</h3>
+      <h4>Early Game</h4>
+      <ul>
+        <li><a href="#item_tango" data-rel="popup" data-transition="pop" class="tango">Tango</a></li>
+        <li><a href="#item_healing" data-rel="popup" data-transition="pop" class="healing">Healing Salve</a></li>
+        <li><a href="#item_stout" data-rel="popup" data-transition="pop" class="stout">Stout Shield</a></li>
+        <li><a href="#item_treads" data-rel="popup" data-transition="pop" class="treads">Power Treads</a></li>
+      </ul>
+
+      <h4>Mid Game</h4>
+      <ul>
+        <li><a href="#item_vanguard" data-rel="popup" data-transition="pop" class="vanguard">Vanguard</a></li>
+        <li><a href="#item_blademail" data-rel="popup" data-transition="pop" class="blademail">Blade Mail</a></li>
+        <li><a href="#item_hood" data-rel="popup" data-transition="pop" class="hood">Hood of Defiance</a></li>
+        <li><a href="#item_basher" data-rel="popup" data-transition="pop" class="basher">Skull Basher</a></li>
+      </ul>
+
+      <h4>Late Game</h4>
+      <ul>
+        <li><a href="#item_assault" data-rel="popup" data-transition="pop" class="assault">Assault Cuirass</a></li>
+        <li><a href="#item_tarrasque" data-rel="popup" data-transition="pop" class="tarrasque">Heart of Tarrasque</a></li>
+        <li><a href="#item_abyssal" data-rel="popup" data-transition="pop" class="abyssal">Abyssal Blade</a></li>
+        <li><a href="#item_shivas" data-rel="popup" data-transition="pop" class="shivas">Shiva's Guard</a></li>
+      </ul>
+
+      <h4>Situacionais</h4>
+      <ul>
+        <li><a href="#item_pipe" data-rel="popup" data-transition="pop" class="pipe">Pipe of Insight</a></li>
+        <li><a href="#item_crimson" data-rel="popup" data-transition="pop" class="crimson">Crimson Guard</a></li>
+      </ul>
+    </div>
+
+    <div class="dota-skills">
+      <h3 class="ui-bar ui-bar-a ui-corner-all">Bristleback Skills</h3>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:20%;"><a href="#skill_s1" data-rel="popup" data-transition="pop" class="skill1"></a></th>
+            <th style="width:20%;"><a href="#skill_s2" data-rel="popup" data-transition="pop" class="skill2"></a></th>
+            <th style="width:20%;"><a href="#skill_s3" data-rel="popup" data-transition="pop" class="skill3"></a></th>
+            <th style="width:20%;"><a href="#skill_s4" data-rel="popup" data-transition="pop" class="skill4"></a></th>
+            <th style="width:20%;"><a href="#skill_sx" data-rel="popup" data-transition="pop" class="skillx"></a></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="s1"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s2"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s1"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s2"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s2"><td></td><td></td><td></td><td></td><td></td></tr>
+
+          <tr class="s4"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s2"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s1"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s3"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s3"><td></td><td></td><td></td><td></td><td></td></tr>
+
+          <tr class="s4"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s3"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s3"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s1"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+
+          <tr class="s4"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="dota-strategy">
+      <h3 class="ui-bar ui-bar-a ui-corner-all">Bristleback Stategy</h3>
+      <p>This hero is a tanker. The strategy is simple: survive and hit. Or survive and run away. Don't forget to change your Treads as needed.</p>
+    </div>
+
+  </div>
+
+  <!-- Abbadon Item Descriotions -->
+  <div data-role="popup" id="item_tango" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Tango</h1></div>
+    <div role="main" class="ui-content">
+      <p>Essencial to recover some HP during early game, while your first skill won't heal much. And you'd rather use your mana for offense.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_healing" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Healing Salve</h1></div>
+    <div role="main" class="ui-content">
+      <p>Use it when HP is too low, when the lane is too aggressive.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_stout" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Stout Shield</h1></div>
+    <div role="main" class="ui-content">
+      <p>This shield will help you tank on your lane.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_treads" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Power Treads</h1></div>
+    <div role="main" class="ui-content">
+      <p>Make the best of this changing its stat. INT (blue) will improve mana recovery. STR (red) increases damage, max HP and HP recovery. AGI (green) improves your attack speed.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_vanguard" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Vanguard</h1></div>
+    <div role="main" class="ui-content">
+      <p>Evolve stout shield to this. It increases max HP and HP regeneration. It also blocks enemies's attacks. Very helpful for a tanker like Bristleback.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_blademail" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Blade Mail</h1></div>
+    <div role="main" class="ui-content">
+      <p>Increase defense, damage and reflect damage all in one item? This is a must!</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_hood" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Hood of Defiance</h1></div>
+    <div role="main" class="ui-content">
+      <p>You already have physical resistance, and now magic resistance!</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_basher" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Skull Basher</h1></div>
+    <div role="main" class="ui-content">
+      <p>You are a tanker, but you can hit! So hit, and stun if you can!</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_assault" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Assault Cuirass</h1></div>
+    <div role="main" class="ui-content">
+      <p>Yes, you can hit, and it's better if you hit faster! Assault also improves you defense and your allies's attack speed.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_tarrasque" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Heart of Tarrasque</h1></div>
+    <div role="main" class="ui-content">
+      <p>Life is low most of the time? Get a Tarrasque. It improves your Max HP and HP recovery. You can leave it for later if you're OK.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_abyssal" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Abyssal Blade</h1></div>
+    <div role="main" class="ui-content">
+      <p>You don't have a disabling skill. Until now! Use this item to stun from distance.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_shivas" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Shiva's Guard</h1></div>
+    <div role="main" class="ui-content">
+      <p>Slow down your enemies around you while giving them some damage! Run after them and bash them to death! Mwahaha!</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_pipe" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Pipe of Insight</h1></div>
+    <div role="main" class="ui-content">
+      <p>Prepare your team for a fight, raising everyone's magical resistance. Only make this item if there's enough magical heroes as enemies.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_crimson" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Crimson Guard</h1></div>
+    <div role="main" class="ui-content">
+      <p>Protect yourself and your friends from physical attacks. Only make this item if there's enough melee heroes as your enemies.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+
+  <!-- Abbadon Skill Descriotions -->
+  <div data-role="popup" id="skill_s1" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Viscous Nasal Goo</h1></div>
+    <div role="main" class="ui-content">
+      <p>Reduce armor and movement speed. Spam a lot while chasing someone down.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="skill_s2" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Quill Spray</h1></div>
+    <div role="main" class="ui-content">
+      <p>Use this to kill creep waves, and in all fights. Its deals bonus damage each time a unit is hit by it in the last 14 seconds.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="skill_s3" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Bristleback</h1></div>
+    <div role="main" class="ui-content">
+      <p>Passive. Bristleback takes less damage from the sides and the back. Each 230 damage from the rear, Bristleback automatically uses Quill Spray of the current level.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="skill_s4" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Warpath</h1></div>
+    <div role="main" class="ui-content">
+      <p>Passive. Every time Bristleback casts a spell, his damage and movement speed are improved for some time, and it stacks!</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="skill_sx" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Stats</h1></div>
+    <div role="main" class="ui-content">
+      <p>Spend all the rest of skill points on stats.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+
+</div>
+
+<div data-role="footer" data-position="fixed">
+  <div data-role="navbar" class="playground-icons">
+    <ul>
+      <li><a href="index.html" data-icon="custom" class="dota-icon">Dota 2</a></li>
+      <li><a href="../ragnarok/index.html" data-icon="custom" class="ragnarok-icon">Ragnarok</a></li>
+      <li><a href="../pokemon/index.html" data-icon="custom" class="pokemon-icon">Pokemon</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

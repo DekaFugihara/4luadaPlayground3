@@ -1,0 +1,90 @@
+/*********************************/
+/*  4luada Playground v.3  - RO  */
+/*********************************/
+/* STATS                         */
+/* EQUIPMENTS                    */
+/*********************************/
+
+/* STATS
+------------------------------------------------------------------------------------------------ */
+.ragnarok-stats .ui-block-a .ui-bar {
+  padding:0;
+}
+.ragnarok-stats .ui-listview {
+  margin:-1px 0;
+}
+.ragnarok-stats .ui-listview li {
+  padding:10px 0;
+  font-weight:normal;
+  text-align:center;
+}
+.ragnarok-stats .ui-listview li > * {
+  display:inline-block;
+}
+.ragnarok-stats .ui-listview li > b {
+  width:45px;
+  text-align:left;
+}
+.ragnarok-stats .ui-listview li > span {
+  text-align:right;
+}
+.ragnarok-stats .ui-listview li > span.base {
+  width:30px;
+  padding-right:10px;
+}
+.ragnarok-stats .ui-listview li > span.bonus {
+  width:20px;
+  padding-left:10px;
+}
+.ragnarok-stats .ui-block-b {
+  padding:3px 0;
+}
+.ragnarok-stats .ui-block-b div {
+  padding:5px 3px 5px 20px;
+  text-align:right;
+}
+.ragnarok-stats .ui-block-b div b {
+  float:left;
+}
+
+/* EQUIPMENTS
+------------------------------------------------------------------------------------------------ */
+.ragnarok-equips .ui-listview li a {
+  background:#FFF;
+  line-height:24px;
+  font-weight:normal;
+}
+.ragnarok-equips .ui-listview li a:before {
+  content:"";
+  display:block;
+  float:left;
+  margin:-5px 10px -5px -10px;
+  padding:5px;
+  width:24px;
+  height:24px;
+  background-color:#DDD;
+  background-repeat:no-repeat;
+  background-position:center center;
+  border-radius:50%;
+}
+
+
+.h1-feather_beret:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/feather_beret.gif"); }
+
+.h2-robo_eye:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/robo_eye.gif"); }
+
+.h3-handkerchief:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/handkerchief_in_mouth.gif"); }
+
+.ar-sprint_mail:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/sprint_mail.gif"); }
+
+.wp-speedy_recovery_wand:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/speedy_recovery_wand.gif"); }
+
+.sd-orleans_server:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/orleanss_server.gif"); }
+
+.ro-heroic_backpack:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/heroic_backpack.gif"); }
+
+.sh-sprint_shoes:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/sprint_shoes.gif"); }
+
+.ac-orleans_glove:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/orleans_glove.gif"); }
+
+.sh-sprint_ring:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/sprint_ring.gif"); }

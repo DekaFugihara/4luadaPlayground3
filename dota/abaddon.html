@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+  <link rel="stylesheet" href="../assets/stylesheets/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+  <script src="../assets/javascripts/scripts.js" type="text/javascript"></script>
+  <title>4luada Playground</title>
+</head>
+<body>
+
+<div data-role="page" class="toolbar-spacing" id="dota2-abaddon" data-title="Dota 2">
+  <div data-role="header" data-position="fixed">
+    <a href="index.html" class="ui-btn ui-btn-left ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back">Voltar</a>
+    <h1>Abaddon</h1>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+
+    <div class="dota-stats ui-grid-a">
+      <div class="ui-block-a"><div class="ui-bar ui-bar-a">
+        <ul data-role="listview">
+          <li class="str primary ui-bar">23 + 2.70</li>
+          <li class="agi ui-bar">17 + 1.50</li>
+          <li class="int ui-bar">21 + 2.00</li>
+        </ul>
+      </div></div>
+      <div class="ui-block-b"><div class="ui-bar ui-bar-a">
+        <ul data-role="listview">
+          <li class="atk ui-bar">23 + 2.70</li>
+          <li class="spd ui-bar">17 + 1.50</li>
+          <li class="def ui-bar">21 + 2.00</li>
+        </ul>
+      </div></div>
+    </div>
+
+    <div class="dota-items">
+      <h3 class="ui-bar ui-bar-a ui-corner-all">Abaddon Items</h3>
+      <h4>Early Game</h4>
+      <ul>
+        <li><a href="#item_clarity" data-rel="popup" data-transition="pop" class="clarity">Clarity Potion</a></li>
+        <li><a href="#item_tango" data-rel="popup" data-transition="pop" class="tango">Tango</a></li>
+        <li><a href="#item_gauntlets" data-rel="popup" data-transition="pop" class="gauntlets">Gauntlets of Strength</a></li>
+        <li><a href="#item_gauntlets" data-rel="popup" data-transition="pop" class="gauntlets">Gauntlets of Strength</a></li>
+        <li><a href="#item_venom" data-rel="popup" data-transition="pop" class="venom">Orb of Venom</a></li>
+        <li><a href="#item_phase" data-rel="popup" data-transition="pop" class="phase">Phase Boots</a></li>
+        <li><a href="#item_urn" data-rel="popup" data-transition="pop" class="urn">Urn of Shadows</a></li>
+      </ul>
+
+      <h4>Carry Build</h4>
+      <ul>
+        <li><a href="#item_battlefury" data-rel="popup" data-transition="pop" class="battlefury">Battlefury</a></li>
+        <li><a href="#item_sangeyasha" data-rel="popup" data-transition="pop" class="sangeyasha">Sange and Yasha</a></li>
+        <li><a href="#item_skadi" data-rel="popup" data-transition="pop" class="skadi">Eye of Skadi</a></li>
+        <li><a href="#item_shivas" data-rel="popup" data-transition="pop" class="shivas">Shiva's Guard</a></li>
+        <li><a href="#item_assault" data-rel="popup" data-transition="pop" class="assault">Assault Cuirass</a></li>
+      </ul>
+
+      <h4>Support Build</h4>
+      <ul>
+        <li><a href="#item_soulring" data-rel="popup" data-transition="pop" class="soulring">Soul Ring</a></li>
+        <li><a href="#item_mekansm" data-rel="popup" data-transition="pop" class="mekansm">Mekansm</a></li>
+        <li><a href="#item_drum" data-rel="popup" data-transition="pop" class="drum">Drum of Endurance</a></li>
+        <li><a href="#item_pipe" data-rel="popup" data-transition="pop" class="pipe">Pipe of Insight</a></li>
+        <li><a href="#item_crimson" data-rel="popup" data-transition="pop" class="crimson">Crimson Guard</a></li>
+      </ul>
+
+      <h4>Situacionais</h4>
+      <ul>
+        <li><a href="#item_maelstrom" data-rel="popup" data-transition="pop" class="maelstrom">Maelstrom</a></li>
+        <li><a href="#item_aghanim" data-rel="popup" data-transition="pop" class="aghanim">Aghanim's Scepter</a></li>
+        <li><a href="#item_tarrasque" data-rel="popup" data-transition="pop" class="tarrasque">Heart of Tarrasque</a></li>
+      </ul>
+    </div>
+
+    <div class="dota-skills">
+      <h3 class="ui-bar ui-bar-a ui-corner-all">Abaddon Skills</h3>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:20%;"><a href="#skill_s1" data-rel="popup" data-transition="pop" class="skill1"></a></th>
+            <th style="width:20%;"><a href="#skill_s2" data-rel="popup" data-transition="pop" class="skill2"></a></th>
+            <th style="width:20%;"><a href="#skill_s3" data-rel="popup" data-transition="pop" class="skill3"></a></th>
+            <th style="width:20%;"><a href="#skill_s4" data-rel="popup" data-transition="pop" class="skill4"></a></th>
+            <th style="width:20%;"><a href="#skill_sx" data-rel="popup" data-transition="pop" class="skillx"></a></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="s2"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s1"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s3"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s1"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s1"><td></td><td></td><td></td><td></td><td></td></tr>
+
+          <tr class="s4"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s1"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s3"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s3"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s3"><td></td><td></td><td></td><td></td><td></td></tr>
+
+          <tr class="s4"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s2"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s2"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="s2"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+
+          <tr class="s4"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="sx"><td></td><td></td><td></td><td></td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="dota-strategy">
+      <h3 class="ui-bar ui-bar-a ui-corner-all">Abaddon Stategy</h3>
+      <h4>Carry Abaddon</h4>
+      <p>Abadon has a high survivability, besides he slows down the enemies he strikes, which makes him a great chaser. That means Sange and Yasha and Phase Boots to run faster, Skadi and/or Shivas ti slow down enemies even more, and Assault Cuirass to attack faster.</p>
+
+      <h4>Support Abaddon</h4>
+      <p>As support, he will need a lot of mana, so Url will be a lot of help, and so will Soul Ring - specially having Abaddon's first skill healing him back. Soul RIng would be enough for Abaddon, but Urn is great if no one else on the team is making it. Mekansm ir great to help him survive a little longer as well as his allies.</p>
+    </div>
+
+  </div>
+
+  <!-- Abbadon Item Descriotions -->
+  <div data-role="popup" id="item_clarity" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Clarity Potion</h1></div>
+    <div role="main" class="ui-content">
+      <p>Recover some mana if you're using a lot of the second skill on the lane. Careful not to be hit while it's recovering your mana. It takes some time.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_tango" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Tango</h1></div>
+    <div role="main" class="ui-content">
+      <p>Essencial to recover some HP during early game, while your first skill won't heal much. And you'd rather use your mana for offense.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_gauntlets" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Gauntlets of Strength</h1></div>
+    <div role="main" class="ui-content">
+      <p>Pre-requisites to build Urn. It will also raise your max HP and attack during early game.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_venom" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Orb of Venom</h1></div>
+    <div role="main" class="ui-content">
+      <p>This will slow down your enemies, stacking with your passive skill.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_phase" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Phase Boots</h1></div>
+    <div role="main" class="ui-content">
+      <p>This will help you outrun your enemies. Don't let them scape!</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_urn" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Urn of Shadows</h1></div>
+    <div role="main" class="ui-content">
+      <p>You can use urn either for healing yourself and your allies, either for damaging your enemies. It also improves your mana recovery.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_battlefury" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Battlefury</h1></div>
+    <div role="main" class="ui-content">
+      <p>Going for carry, huh? This will help you take the creep waves faster. Faster creep killing, faster farming.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_sangeyasha" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Sange and Yasha</h1></div>
+    <div role="main" class="ui-content">
+      <p>Your skills and items all together will make you a great runner and chaser. This item makes you even faster and slows down your enemies.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_skadi" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Eye of Skadi</h1></div>
+    <div role="main" class="ui-content">
+      <p>By now, your enemies will be almost stopping. Now with this, they will hane no chance of scaping. Even their attack speed drops. Just keep hitting them.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_shivas" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Shiva's Guard</h1></div>
+    <div role="main" class="ui-content">
+      <p>Feel the need to slow down not only the one you're hitting, but everyone around you? Use Shivas! It also does some damage and will improve your mana recovery.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_assault" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Assault Cuirass</h1></div>
+    <div role="main" class="ui-content">
+      <p>Attack faster! Slow and kill your enemies faster!</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_soulring" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Soul Ring</h1></div>
+    <div role="main" class="ui-content">
+      <p>Recover some mana and be ready for a fight!</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_mekansm" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Mekansm</h1></div>
+    <div role="main" class="ui-content">
+      <p>Heal your team when needed.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_drum" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Drum of Endurance</h1></div>
+    <div role="main" class="ui-content">
+      <p>Run faster to escape or to reach your enemies!</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_pipe" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Pipe of Insight</h1></div>
+    <div role="main" class="ui-content">
+      <p>Prepare your team for a fight, raising everyone's magical resistance. Only make this item if there's enough magical heroes as enemies.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_crimson" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Crimson Guard</h1></div>
+    <div role="main" class="ui-content">
+      <p>Protect yourself and your friends from physical attacks. Only make this item if there's enough melee heroes as your enemies.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_maelstrom" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Maelstrom</h1></div>
+    <div role="main" class="ui-content">
+      <p>Improve attack speed and take creep waves easier with one item. Make either this or battlefury, but not both.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_aghanim" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Aghanim's Scepter</h1></div>
+    <div role="main" class="ui-content">
+      <p>Increase Ult duration and improve its effects. It also improves your stats.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="item_tarrasque" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Heart of Tarrasque</h1></div>
+    <div role="main" class="ui-content">
+      <p>Life is low most of the time? Get a Tarrasque. It improves your Max HP and HP recovery.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+
+  <!-- Abbadon Skill Descriotions -->
+  <div data-role="popup" id="skill_s1" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Mist Coil</h1></div>
+    <div role="main" class="ui-content">
+      <p>Sacrifice a little of your HP to damage an enemy or restore an ally's HP. You can use it on yourself, it will restore more than spend HP.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="skill_s2" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Aphotic Shield</h1></div>
+    <div role="main" class="ui-content">
+      <p>Great when taking out creeps, specially when you're against rangeds on the lane. It allows you to get closer.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="skill_s3" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Curse of Avernus</h1></div>
+    <div role="main" class="ui-content">
+      <p>Each strike of yours slows down your enemy, while each unit that attacks the slowed enemy will have their movement speed and attack speed increased. Great for chasing down your enemies.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="skill_s4" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Borrowed Time</h1></div>
+    <div role="main" class="ui-content">
+      <p>All damage will convert to life and heal you, and most negative buffs will be removed. It is activated automatically if HP gets bellow 400 (if not in cooldown). Aghanim's Scepter adds a damage redirect effect (50%) and increases Ult's duration (+1).</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+  <div data-role="popup" id="skill_sx" style="max-width:300px;" data-potision-to="window">
+    <div data-role="header"><h1>Stats</h1></div>
+    <div role="main" class="ui-content">
+      <p>Spend all the rest of skill points on stats.</p>
+    </div>
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  </div>
+
+</div>
+
+<div data-role="footer" data-position="fixed">
+  <div data-role="navbar" class="playground-icons">
+    <ul>
+      <li><a href="index.html" data-icon="custom" class="dota-icon">Dota 2</a></li>
+      <li><a href="../ragnarok/index.html" data-icon="custom" class="ragnarok-icon">Ragnarok</a></li>
+      <li><a href="../pokemon/index.html" data-icon="custom" class="pokemon-icon">Pokemon</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,353 @@
+/*******************************/
+/*    4luada Playground v.3    */
+/*******************************/
+/* GENERAL                     */
+/* --------------------------- */
+/* - Formatting                */
+/* - Colors                    */
+/*******************************/
+/* STRUCTURE                   */
+/* --------------------------- */
+/* - Containers                */
+/* - Boxes                     */
+/* - Navigation                */
+/*******************************/
+/* COMPONENTS                  */
+/* --------------------------- */
+/* - Listview                  */
+/*******************************/
+/* SPECIFIC PAGES              */
+/* --------------------------- */
+/* - Home                      */
+/*******************************/
+/* GENERAL
+------------------------------------------------------------------------------------------------ */
+/* - Formatting */
+.center { text-align: center; }
+
+/* - Colors */
+p { color: #6B7075; }
+
+.grey { color: #6F6F6F; }
+
+h1, .bluesky { color: #45A5E0; }
+
+h3, .bluenight { color: #3288BD; }
+
+/* STRUCTURE
+------------------------------------------------------------------------------------------------ */
+/* - Containers */
+.toolbar-spacing { padding-top: 60px; }
+
+.bottom-spacing { margin-top: 30px; text-align: center; }
+
+/* - Boxes */
+.box.margin-top { margin-top: 40px; }
+
+.box.margin-bottom { margin-bottom: 40px; }
+
+.box .box-title { color: #2980A2; }
+
+.box.custom-corners .ui-bar { -webkit-border-top-left-radius: inherit; border-top-left-radius: inherit; -webkit-border-top-right-radius: inherit; border-top-right-radius: inherit; }
+
+.box.custom-corners .ui-body { border-top-width: 0; -webkit-border-bottom-left-radius: inherit; border-bottom-left-radius: inherit; -webkit-border-bottom-right-radius: inherit; border-bottom-right-radius: inherit; }
+
+/* - Navigation */
+html .ui-footer.ui-bar-a .ui-navbar .ui-btn { background-color: #37A0E0; text-shadow: none; color: #FFF; }
+html .ui-footer.ui-bar-a .ui-navbar .ui-btn.ui-btn-active { background-color: #1C7DB3; }
+
+.nav-playground-icons .ui-btn:after { width: 20px !important; height: 20px !important; margin-left: -10px !important; }
+
+.dota-icon:after { background: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/dota.png") 50% 50% no-repeat; background-size: 20px 20px; }
+
+.ragnarok-icon:after { background: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/poring.png") 50% 50% no-repeat; background-size: 20px 20px; }
+
+.pokemon-icon:after { background: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/pokeball.png") 50% 50% no-repeat; background-size: 20px 20px; }
+
+/* COMPONENTS
+------------------------------------------------------------------------------------------------ */
+/* - Listview */
+ul.ui-listview li.ui-li-divider { color: #2980A2; }
+
+/* SPECIFIC PAGES
+------------------------------------------------------------------------------------------------ */
+/* - Home */
+#home h1.home-title { margin-top: 0; }
+#home h3.home-title { margin-bottom: 0; }
+
+/* GAMES STYLES
+------------------------------------------------------------------------------------------------ */
+/*********************************/
+/* 4luada Playground v.3  - DOTA */
+/*********************************/
+/* STATS                         */
+/* ITEMS                         */
+/* SKILLS                        */
+/*********************************/
+/* STATS
+------------------------------------------------------------------------------------------------ */
+.dota-stats .ui-block-b .ui-bar-a { margin-left: -1px; }
+.dota-stats .ui-bar { padding: 0 1em; }
+.dota-stats ul.ui-listview { margin: -1px -1em; }
+.dota-stats ul.ui-listview > li { padding: 0.5em; }
+.dota-stats ul.ui-listview > li:before { content: ''; display: inline-block; background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/dota-stats.png"); background-repeat: no-repeat; vertical-align: middle; }
+.dota-stats ul.ui-listview > li.str:before, .dota-stats ul.ui-listview > li.agi:before, .dota-stats ul.ui-listview > li.int:before { width: 33px; height: 33px; margin: 3px 10px 3px 0; }
+.dota-stats ul.ui-listview > li.str:before { background-position: -57px 0; }
+.dota-stats ul.ui-listview > li.agi:before { background-position: -57px -33px; }
+.dota-stats ul.ui-listview > li.int:before { background-position: -57px -66px; }
+.dota-stats ul.ui-listview > li.atk:before, .dota-stats ul.ui-listview > li.spd:before, .dota-stats ul.ui-listview > li.def:before { width: 50px; height: 31px; margin: 0 5px 8px 0; }
+.dota-stats ul.ui-listview > li.atk:before { background-position: 0 0; }
+.dota-stats ul.ui-listview > li.spd:before { width: 54px; height: 40px; margin: 0 1px -1px 0; background-position: 0 -31px; }
+.dota-stats ul.ui-listview > li.def:before { background-position: 0 -71px; }
+.dota-stats ul.ui-listview, .dota-stats ul.ui-listview li.primary:after { content: ''; display: block; width: 40px; height: 40px; background-repeat: no-repeat; background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/dota-stats.png"); background-position: -90px 0; position: absolute; top: 50%; left: 5px; margin: -20px 0; }
+
+/* ITEMS
+------------------------------------------------------------------------------------------------ */
+.dota-items ul { list-style: none; padding-left: 0; }
+.dota-items ul li { display: inline-block; margin: 0 1px 8px; }
+.dota-items ul li a { display: block; width: 50px; height: 38px; border: 1px solid #CCC; margin: 0 auto; background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/dota_items.jpg"); text-indent: -9999px; border-radius: 5px; }
+.dota-items ul li a.clarity { background-position: 0 0; }
+.dota-items ul li a.mango { background-position: 0 -38px; }
+.dota-items ul li a.tango { background-position: 0 -76px; }
+.dota-items ul li a.healing { background-position: 0 -114px; }
+.dota-items ul li a.smoke { background-position: 0 -152px; }
+.dota-items ul li a.portal { background-position: 0 -190px; }
+.dota-items ul li a.dust { background-position: 0 -228px; }
+.dota-items ul li a.courier { background-position: 0 -266px; }
+.dota-items ul li a.fcourier { background-position: 0 -304px; }
+.dota-items ul li a.ward { background-position: 0 -342px; }
+.dota-items ul li a.sentry { background-position: 0 -380px; }
+.dota-items ul li a.bottle { background-position: 0 -418px; }
+.dota-items ul li a.branch { background-position: -60px 0; }
+.dota-items ul li a.gauntlets { background-position: -60px -38px; }
+.dota-items ul li a.slippers { background-position: -60px -76px; }
+.dota-items ul li a.mantle { background-position: -60px -114px; }
+.dota-items ul li a.circlet { background-position: -60px -152px; }
+.dota-items ul li a.belt { background-position: -60px -190px; }
+.dota-items ul li a.band { background-position: -60px -228px; }
+.dota-items ul li a.robe { background-position: -60px -266px; }
+.dota-items ul li a.ogre { background-position: -60px -304px; }
+.dota-items ul li a.alacrity { background-position: -60px -342px; }
+.dota-items ul li a.wizardry { background-position: -60px -380px; }
+.dota-items ul li a.ring { background-position: -120px 0; }
+.dota-items ul li a.stout { background-position: -120px -38px; }
+.dota-items ul li a.quelling { background-position: -120px -76px; }
+.dota-items ul li a.venom { background-position: -120px -114px; }
+.dota-items ul li a.blades { background-position: -120px -152px; }
+.dota-items ul li a.chainmail { background-position: -120px -190px; }
+.dota-items ul li a.quarterstaff { background-position: -120px -228px; }
+.dota-items ul li a.helm { background-position: -120px -266px; }
+.dota-items ul li a.broadsword { background-position: -120px -304px; }
+.dota-items ul li a.claymore { background-position: -120px -342px; }
+.dota-items ul li a.javelin { background-position: -120px -380px; }
+.dota-items ul li a.mithril { background-position: -120px -418px; }
+.dota-items ul li a.stick { background-position: -180px 0; }
+.dota-items ul li a.sage { background-position: -180px -38px; }
+.dota-items ul li a.regen { background-position: -180px -76px; }
+.dota-items ul li a.boots { background-position: -180px -114px; }
+.dota-items ul li a.gloves { background-position: -180px -152px; }
+.dota-items ul li a.cloak { background-position: -180px -190px; }
+.dota-items ul li a.rhealth { background-position: -180px -228px; }
+.dota-items ul li a.void { background-position: -180px -266px; }
+.dota-items ul li a.gem { background-position: -180px -304px; }
+.dota-items ul li a.morbid { background-position: -180px -342px; }
+.dota-items ul li a.amulet { background-position: -180px -380px; }
+.dota-items ul li a.ghost { background-position: -180px -418px; }
+.dota-items ul li a.blink { background-position: -180px -456px; }
+.dota-items ul li a.wand { background-position: -240px 0; }
+.dota-items ul li a.null { background-position: -240px -38px; }
+.dota-items ul li a.wraith { background-position: -240px -76px; }
+.dota-items ul li a.poor { background-position: -240px -114px; }
+.dota-items ul li a.bracer { background-position: -240px -152px; }
+.dota-items ul li a.soulring { background-position: -240px -190px; }
+.dota-items ul li a.phase { background-position: -240px -228px; }
+.dota-items ul li a.treads { background-position: -240px -266px; }
+.dota-items ul li a.oblivion { background-position: -240px -304px; }
+.dota-items ul li a.perseverance { background-position: -240px -342px; }
+.dota-items ul li a.midas { background-position: -240px -380px; }
+.dota-items ul li a.travel { background-position: -240px -418px; }
+.dota-items ul li a.moon { background-position: -240px -456px; }
+.dota-items ul li a.basilius { background-position: -300px 0; }
+.dota-items ul li a.headdress { background-position: -300px -38px; }
+.dota-items ul li a.buckler { background-position: -300px -76px; }
+.dota-items ul li a.urn { background-position: -300px -114px; }
+.dota-items ul li a.tranquil { background-position: -300px -152px; }
+.dota-items ul li a.aquila { background-position: -300px -190px; }
+.dota-items ul li a.medallion { background-position: -300px -228px; }
+.dota-items ul li a.arcane { background-position: -300px -266px; }
+.dota-items ul li a.drum { background-position: -300px -304px; }
+.dota-items ul li a.mekansm { background-position: -300px -342px; }
+.dota-items ul li a.vladmir { background-position: -300px -380px; }
+.dota-items ul li a.pipe { background-position: -300px -418px; }
+.dota-items ul li a.greaves { background-position: -300px -456px; }
+.dota-items ul li a.glimmer { background-position: -360px 0; }
+.dota-items ul li a.force { background-position: -360px -38px; }
+.dota-items ul li a.veil { background-position: -360px -76px; }
+.dota-items ul li a.necronomicon { background-position: -360px -114px; }
+.dota-items ul li a.dagon { background-position: -360px -152px; }
+.dota-items ul li a.eul { background-position: -360px -190px; }
+.dota-items ul li a.solar { background-position: -360px -228px; }
+.dota-items ul li a.rod { background-position: -360px -266px; }
+.dota-items ul li a.orchid { background-position: -360px -304px; }
+.dota-items ul li a.aghanim { background-position: -360px -342px; }
+.dota-items ul li a.refresher { background-position: -360px -380px; }
+.dota-items ul li a.vyse { background-position: -360px -418px; }
+.dota-items ul li a.octarine { background-position: -360px -456px; }
+.dota-items ul li a.crystalys { background-position: -420px 0; }
+.dota-items ul li a.mordiggian { background-position: -420px -38px; }
+.dota-items ul li a.shadowblade { background-position: -420px -76px; }
+.dota-items ul li a.basher { background-position: -420px -114px; }
+.dota-items ul li a.battlefury { background-position: -420px -152px; }
+.dota-items ul li a.ethereal { background-position: -420px -190px; }
+.dota-items ul li a.silver { background-position: -420px -228px; }
+.dota-items ul li a.radiance { background-position: -420px -266px; }
+.dota-items ul li a.monkey { background-position: -420px -304px; }
+.dota-items ul li a.daedalus { background-position: -420px -342px; }
+.dota-items ul li a.butterfly { background-position: -420px -380px; }
+.dota-items ul li a.divine { background-position: -420px -418px; }
+.dota-items ul li a.abyssal { background-position: -420px -456px; }
+.dota-items ul li a.hood { background-position: -480px 0; }
+.dota-items ul li a.vanguard { background-position: -480px -38px; }
+.dota-items ul li a.blademail { background-position: -480px -76px; }
+.dota-items ul li a.soulbooster { background-position: -480px -114px; }
+.dota-items ul li a.crimson { background-position: -480px -152px; }
+.dota-items ul li a.bkb { background-position: -480px -190px; }
+.dota-items ul li a.lotus { background-position: -480px -228px; }
+.dota-items ul li a.shivas { background-position: -480px -266px; }
+.dota-items ul li a.bloodstone { background-position: -480px -304px; }
+.dota-items ul li a.manta { background-position: -480px -342px; }
+.dota-items ul li a.linkens { background-position: -480px -380px; }
+.dota-items ul li a.assault { background-position: -480px -418px; }
+.dota-items ul li a.tarrasque { background-position: -480px -456px; }
+.dota-items ul li a.madness { background-position: -540px 0; }
+.dota-items ul li a.dominator { background-position: -540px -38px; }
+.dota-items ul li a.sange { background-position: -540px -76px; }
+.dota-items ul li a.yasha { background-position: -540px -114px; }
+.dota-items ul li a.maelstrom { background-position: -540px -152px; }
+.dota-items ul li a.diffusal { background-position: -540px -190px; }
+.dota-items ul li a.desolator { background-position: -540px -228px; }
+.dota-items ul li a.halberd { background-position: -540px -266px; }
+.dota-items ul li a.sangeyasha { background-position: -540px -304px; }
+.dota-items ul li a.skadi { background-position: -540px -342px; }
+.dota-items ul li a.mjollnir { background-position: -540px -380px; }
+.dota-items ul li a.satanic { background-position: -540px -418px; }
+.dota-items ul li a.energy { background-position: -600px 0; }
+.dota-items ul li a.point { background-position: -600px -38px; }
+.dota-items ul li a.vitality { background-position: -600px -76px; }
+.dota-items ul li a.platemail { background-position: -600px -114px; }
+.dota-items ul li a.talisman { background-position: -600px -152px; }
+.dota-items ul li a.hyperstone { background-position: -600px -190px; }
+.dota-items ul li a.orb { background-position: -600px -228px; }
+.dota-items ul li a.demon { background-position: -600px -266px; }
+.dota-items ul li a.mystic { background-position: -600px -304px; }
+.dota-items ul li a.reaver { background-position: -600px -342px; }
+.dota-items ul li a.eaglesong { background-position: -600px -380px; }
+.dota-items ul li a.sacred { background-position: -600px -418px; }
+
+/* SKILLS
+------------------------------------------------------------------------------------------------ */
+.dota-skills table { width: 100%; }
+.dota-skills table thead th { position: relative; border: 1px solid #DDD; }
+.dota-skills table thead th:before { content: ""; display: block; padding-top: 100%; }
+.dota-skills table thead th a { position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: block; padding: 0 1px 1px; background-repeat: no-repeat; background-size: cover; }
+.dota-skills table thead th tbody td { background: #F1F1F1; padding: 7px 0 5px; border: 1px solid #DDD; color: #FFF; font-weight: bold; text-align: center; text-shadow: none; }
+.dota-skills table tbody tr.s1 td:nth-child(1), .dota-skills table tbody tr.s2 td:nth-child(2), .dota-skills table tbody tr.s3 td:nth-child(3), .dota-skills table tbody tr.s4 td:nth-child(4), .dota-skills table tbody tr.sx td:last-child { background: #A6CDE4; font-size: .8em; }
+.dota-skills table tbody tr.s1 td:not(:nth-child(1)):before { content: initial; }
+.dota-skills table tbody tr.s2 td:not(:nth-child(2)):before { content: initial; }
+.dota-skills table tbody tr.s3 td:not(:nth-child(3)):before { content: initial; }
+.dota-skills table tbody tr.s4 td:not(:nth-child(4)):before { content: initial; }
+.dota-skills table tbody tr.sx td:not(:last-child):before { content: initial; }
+.dota-skills table tbody tr:nth-child(1) td:before { content: '1'; }
+.dota-skills table tbody tr:nth-child(2) td:before { content: '2'; }
+.dota-skills table tbody tr:nth-child(3) td:before { content: '3'; }
+.dota-skills table tbody tr:nth-child(4) td:before { content: '4'; }
+.dota-skills table tbody tr:nth-child(5) td:before { content: '5'; }
+.dota-skills table tbody tr:nth-child(6) td:before { content: '6'; }
+.dota-skills table tbody tr:nth-child(7) td:before { content: '7'; }
+.dota-skills table tbody tr:nth-child(8) td:before { content: '8'; }
+.dota-skills table tbody tr:nth-child(9) td:before { content: '9'; }
+.dota-skills table tbody tr:nth-child(10) td:before { content: '10'; }
+.dota-skills table tbody tr:nth-child(11) td:before { content: '11'; }
+.dota-skills table tbody tr:nth-child(12) td:before { content: '12'; }
+.dota-skills table tbody tr:nth-child(13) td:before { content: '13'; }
+.dota-skills table tbody tr:nth-child(14) td:before { content: '14'; }
+.dota-skills table tbody tr:nth-child(15) td:before { content: '15'; }
+.dota-skills table tbody tr:nth-child(16) td:before { content: '16'; }
+.dota-skills table tbody tr:nth-child(17) td:before { content: '17'; }
+.dota-skills table tbody tr:nth-child(18) td:before { content: '18'; }
+.dota-skills table tbody tr:nth-child(19) td:before { content: '19'; }
+.dota-skills table tbody tr:nth-child(20) td:before { content: '20'; }
+.dota-skills table tbody tr:nth-child(21) td:before { content: '21'; }
+.dota-skills table tbody tr:nth-child(22) td:before { content: '22'; }
+.dota-skills table tbody tr:nth-child(23) td:before { content: '23'; }
+.dota-skills table tbody tr:nth-child(24) td:before { content: '24'; }
+.dota-skills table tbody tr:nth-child(25) td:before { content: '25'; }
+.dota-skills .skillx { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/stat.png"); }
+
+#dota2-abaddon .skill1 { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/abbadon_s1.png"); }
+#dota2-abaddon .skill2 { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/abbadon_s2.png"); }
+#dota2-abaddon .skill3 { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/abbadon_s3.png"); }
+#dota2-abaddon .skill4 { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/abbadon_s4.png"); }
+
+#dota2-bristleback .skill1 { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/bristleback_s1.png"); }
+#dota2-bristleback .skill2 { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/bristleback_s2.png"); }
+#dota2-bristleback .skill3 { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/bristleback_s3.png"); }
+#dota2-bristleback .skill4 { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/bristleback_s4.png"); }
+
+/*********************************/
+/*  4luada Playground v.3  - RO  */
+/*********************************/
+/* STATS                         */
+/* EQUIPMENTS                    */
+/*********************************/
+/* STATS
+------------------------------------------------------------------------------------------------ */
+.ragnarok-stats .ui-block-a .ui-bar { padding: 0; }
+
+.ragnarok-stats .ui-listview { margin: -1px 0; }
+
+.ragnarok-stats .ui-listview li { padding: 10px 0; font-weight: normal; text-align: center; }
+
+.ragnarok-stats .ui-listview li > * { display: inline-block; }
+
+.ragnarok-stats .ui-listview li > b { width: 45px; text-align: left; }
+
+.ragnarok-stats .ui-listview li > span { text-align: right; }
+
+.ragnarok-stats .ui-listview li > span.base { width: 30px; padding-right: 10px; }
+
+.ragnarok-stats .ui-listview li > span.bonus { width: 20px; padding-left: 10px; }
+
+.ragnarok-stats .ui-block-b { padding: 3px 0; }
+
+.ragnarok-stats .ui-block-b div { padding: 5px 3px 5px 20px; text-align: right; }
+
+.ragnarok-stats .ui-block-b div b { float: left; }
+
+/* EQUIPMENTS
+------------------------------------------------------------------------------------------------ */
+.ragnarok-equips .ui-listview li a { background: #FFF; line-height: 24px; font-weight: normal; }
+
+.ragnarok-equips .ui-listview li a:before { content: ""; display: block; float: left; margin: -5px 10px -5px -10px; padding: 5px; width: 24px; height: 24px; background-color: #DDD; background-repeat: no-repeat; background-position: center center; border-radius: 50%; }
+
+.h1-feather_beret:before { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/feather_beret.gif"); }
+
+.h2-robo_eye:before { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/robo_eye.gif"); }
+
+.h3-handkerchief:before { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/handkerchief_in_mouth.gif"); }
+
+.ar-sprint_mail:before { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/sprint_mail.gif"); }
+
+.wp-speedy_recovery_wand:before { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/speedy_recovery_wand.gif"); }
+
+.sd-orleans_server:before { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/orleanss_server.gif"); }
+
+.ro-heroic_backpack:before { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/heroic_backpack.gif"); }
+
+.sh-sprint_shoes:before { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/sprint_shoes.gif"); }
+
+.ac-orleans_glove:before { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/orleans_glove.gif"); }
+
+.sh-sprint_ring:before { background-image: url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/sprint_ring.gif"); }
+
+/*# sourceMappingURL=style.css.map */
