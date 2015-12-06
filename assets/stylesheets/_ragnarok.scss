@@ -2,72 +2,103 @@
 /*  4luada Playground v.3  - RO  */
 /*********************************/
 /* STATS                         */
+/* - Distributed Stats           */
+/* Character Stats               */
 /* EQUIPMENTS                    */
 /*********************************/
 
 /* STATS
 ------------------------------------------------------------------------------------------------ */
-.ragnarok-stats .ui-block-a .ui-bar {
-  padding:0;
-}
-.ragnarok-stats .ui-listview {
-  margin:-1px 0;
-}
-.ragnarok-stats .ui-listview li {
-  padding:10px 0;
-  font-weight:normal;
-  text-align:center;
-}
-.ragnarok-stats .ui-listview li > * {
-  display:inline-block;
-}
-.ragnarok-stats .ui-listview li > b {
-  width:45px;
-  text-align:left;
-}
-.ragnarok-stats .ui-listview li > span {
-  text-align:right;
-}
-.ragnarok-stats .ui-listview li > span.base {
-  width:30px;
-  padding-right:10px;
-}
-.ragnarok-stats .ui-listview li > span.bonus {
-  width:20px;
-  padding-left:10px;
-}
-.ragnarok-stats .ui-block-b {
-  padding:3px 0;
-}
-.ragnarok-stats .ui-block-b div {
-  padding:5px 3px 5px 20px;
-  text-align:right;
-}
-.ragnarok-stats .ui-block-b div b {
-  float:left;
+.ragnarok-stats {
+  /* - Distributed Stats */
+  .ui-block-a {
+    .ui-bar {
+      padding:0;
+    }
+    .ui-listview {
+      margin:-1px 0;
+
+      li {
+        padding:10px 0;
+        font-weight:normal;
+        text-align:center;
+
+        & > * {
+          display:inline-block;
+        }
+        & > b {
+          width:45px;
+          text-align:left;
+        }
+        & > span {
+          text-align:right;
+
+          &.base {
+            width:30px;
+            padding-right:10px;
+          }
+          &.bonus {
+            width:20px;
+            padding-left:10px;
+          }
+        }
+      }
+    }
+  }
+  /* Character Stats */
+  .ui-block-b { 
+    padding:3px 0;
+
+    div {
+      padding:5px 3px 5px 20px;
+      text-align:right;
+
+      b {
+        float:left;
+      }
+    }
+  }
 }
 
 /* EQUIPMENTS
 ------------------------------------------------------------------------------------------------ */
-.ragnarok-equips .ui-listview li a {
-  background:#FFF;
-  line-height:24px;
-  font-weight:normal;
-}
-.ragnarok-equips .ui-listview li a:before {
-  content:"";
-  display:block;
-  float:left;
-  margin:-5px 10px -5px -10px;
-  padding:5px;
-  width:24px;
-  height:24px;
-  background-color:#DDD;
-  background-repeat:no-repeat;
-  background-position:center center;
-  border-radius:50%;
+.ragnarok-equips {
+  .ui-listview li a {
+    background:#FFF;
+    line-height:24px;
+    font-weight:normal;
+
+    &:before {
+      content:"";
+      display:block;
+      float:left;
+      margin:-5px 10px -5px -10px;
+      padding:5px;
+      width:24px;
+      height:24px;
+      background-color:#DDD;
+      background-repeat:no-repeat;
+      background-position:center center;
+      border-radius:50%;
+    }
+  }
 }
 
+.ragnarok-equip-detail {
+  h1.ui-title {
+    &:before {
+      content:"";
+      display:inline-block;
+      width:24px;
+      height:24px;
+      vertical-align:middle;
+    }
+  }
+  ul {
+    padding-left:15px;
+    font-size:14px;
+  }
+}
 
 .h1-feather_beret:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/feather_beret.gif"); }
 
