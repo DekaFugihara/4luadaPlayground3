@@ -142,4 +142,13 @@
     color:#2980A2;
     font-size:14px;
   }
+  .ragnarok-skills-list {
+    a {
+      text-indent:-9999px;
+
+      span {
+        text-indent:0;
+      }
+    }
+  }
 }
