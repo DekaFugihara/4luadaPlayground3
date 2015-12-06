@@ -137,27 +137,5 @@
 /* SKILLS
 ------------------------------------------------------------------------------------------------ */
 .ragnarok-skills {
-  .ui-listview li {
-    display:block;
-
-    a {
-      background:#FFF;
-      line-height:24px;
-      font-weight:normal;
-
-      &:before {
-        content:"";
-        display:block;
-        float:left;
-        margin:-5px 10px -5px -10px;
-        padding:5px;
-        width:24px;
-        height:24px;
-        background-color:#DDD;
-        background-repeat:no-repeat;
-        background-position:center center;
-        border-radius:50%;
-      }
-    }
-  }
+  
 }
