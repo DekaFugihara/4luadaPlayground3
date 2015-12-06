@@ -5,6 +5,15 @@
 /* - Distributed Stats           */
 /* Character Stats               */
 /* EQUIPMENTS                    */
+/* - Detail                      */
+/* - Headgears                   */
+/* - Armours                     */
+/* - Weapons                     */
+/* - Shields                     */
+/* - Garments                    */
+/* - Footgears                   */
+/* - Accessory                   */
+/* SKILLS                        */
 /*********************************/
 
 /* STATS
@@ -83,7 +92,7 @@
     }
   }
 }
-
+/* - Detail */
 .ragnarok-equip-detail {
   h1.ui-title {
     &:before {
@@ -99,23 +108,56 @@
     font-size:14px;
   }
 }
-
+/* - Headgears */
 .h1-feather_beret:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/feather_beret.gif"); }
 
 .h2-robo_eye:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/robo_eye.gif"); }
 
 .h3-handkerchief:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/handkerchief_in_mouth.gif"); }
 
+/* - Armours */
 .ar-sprint_mail:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/sprint_mail.gif"); }
 
+/* - Weapons */
 .wp-speedy_recovery_wand:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/speedy_recovery_wand.gif"); }
 
+/* - Shields */
 .sd-orleans_server:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/orleanss_server.gif"); }
 
+/* - Garments */
 .ro-heroic_backpack:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/heroic_backpack.gif"); }
 
+/* - Footgears */
 .sh-sprint_shoes:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/sprint_shoes.gif"); }
 
+/* - Accessory */
 .ac-orleans_glove:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/orleans_glove.gif"); }
+.ac-sprint_ring:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/sprint_ring.gif"); }
 
-.sh-sprint_ring:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Equipments/sprint_ring.gif"); }
+/* SKILLS
+------------------------------------------------------------------------------------------------ */
+.ragnarok-skills {
+  .ui-listview li {
+    display:block;
+
+    a {
+      background:#FFF;
+      line-height:24px;
+      font-weight:normal;
+
+      &:before {
+        content:"";
+        display:block;
+        float:left;
+        margin:-5px 10px -5px -10px;
+        padding:5px;
+        width:24px;
+        height:24px;
+        background-color:#DDD;
+        background-repeat:no-repeat;
+        background-position:center center;
+        border-radius:50%;
+      }
+    }
+  }
+}
