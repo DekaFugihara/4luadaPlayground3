@@ -104,6 +104,9 @@
       vertical-align:middle;
     }
   }
+}
+.ragnarok-equip-detail,
+.ragnarok-skill-detail {
   ul {
     padding-left:15px;
     font-size:14px;
@@ -169,7 +172,10 @@
       }
     }
   }
+}
 
+.ragnarok-skills,
+.ragnarok-equip-detail {
   /* - Acolyte Skills */
   .heal:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Skills/heal.gif"); }
   .increase_agi:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Skills/increase_agility.gif"); }
@@ -181,4 +187,16 @@
   .warp_portal:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Skills/warp_portal.gif"); }
   .angelus:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Skills/angelus.gif"); }
   .aqua_benedicta:before { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/RO/Skills/aqua_benedicta.gif"); }
+}
+/* - Detail */
+.ragnarok-skill-detail {
+  h1.ui-title {
+    &:before {
+      content:"";
+      display:inline-block;
+      width:24px;
+      height:24px;
+      vertical-align:middle;
+    }
+  }
 }
