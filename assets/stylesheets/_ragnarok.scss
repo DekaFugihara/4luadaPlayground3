@@ -210,7 +210,7 @@
   .ragnarok-skills {
     .ragnarok-skills-list {
       a {
-        text-indent:inital;
+        text-indent:initial;
         text-align: left;
         font-size:0.9em;
       }
@@ -218,16 +218,18 @@
   }
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
   .ragnarok-skills {
     .ragnarok-skills-list {
-      width:20%;
-
       .ui-block-a {
         clear:none;
       }
-      & > div:nth-child(4n) {
-        clear:left;
+      & > div {
+        width:25%;
+
+        &:nth-child(4n+1) {
+          clear:left;
+        }
       }
     }
   }
