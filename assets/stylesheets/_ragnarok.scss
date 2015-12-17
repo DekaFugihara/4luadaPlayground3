@@ -15,6 +15,7 @@
 /* - Accessory                   */
 /* SKILLS                        */
 /* - Acolyte Skills              */
+/* RESPONSIVE                    */
 /*********************************/
 
 /* STATS
@@ -101,6 +102,7 @@
       display:inline-block;
       width:24px;
       height:24px;
+      margin-right:5px;
       vertical-align:middle;
     }
   }
@@ -196,7 +198,37 @@
       display:inline-block;
       width:24px;
       height:24px;
+      margin-right:5px;
       vertical-align:middle;
+    }
+  }
+}
+
+/* RESPONSIVE
+------------------------------------------------------------------------------------------------ */
+@media only screen and (min-width: 550px) {
+  .ragnarok-skills {
+    .ragnarok-skills-list {
+      a {
+        text-indent:inital;
+        text-align: left;
+        font-size:0.9em;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .ragnarok-skills {
+    .ragnarok-skills-list {
+      width:20%;
+
+      .ui-block-a {
+        clear:none;
+      }
+      & > div:nth-child(4n) {
+        clear:left;
+      }
     }
   }
 }
