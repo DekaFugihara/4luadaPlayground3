@@ -16,22 +16,90 @@
 <div data-role="page" class="toolbar-spacing" id="pokemon-ss-01" data-title="Pokemon">
 	<div data-role="header" data-position="fixed">
 		<a href="index.html" class="ui-btn ui-btn-left ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back">Voltar</a>
-		<h1>Soul Silver 01</h1>
+		<h1>Soul Silver</h1>
 	</div>
 	
 	<div data-role="main" class="ui-content">
 
 		<div class="pokemon-info">
-			<h3 class="ui-bar ui-bar-a ui-corner-all">My Favourite Team</h3>
-			<p>This team is my favourite not because it is strong, flawless. It isn't even good for competitions. I love this team because these are the Pokémon I love. And I love them for various reasons and there's really no reason to explain myself.</p>
+			<h3 class="ui-bar ui-bar-a ui-corner-all">Blue Team</h3>
+			<p>I know some of them aren't blue. A red Gyarados (despite its usual collor being blue) and an orange Dragonite. Why is Dragonite orange if its previous evolutions are blue, anyway? Haunter is more purple than blue, but it is close enough. Lugia has more white than blue, but, hey, it is the legendary Pokémon of this game! So shut up =P</p>
 		</div>
 
 		<div class="pokemon-teams">
 			<h4 class="ui-bar ui-bar-a ui-corner-all">First Team</h4>
 			<p>This team is the one that will conquer all Johto gyms and the League.</p>
-			<ul data-role="listview" data-inset="true">
+			<ul data-role="listview" data-inset="true" class="pokemon-team">
 				<li data-role="collapsible" data-inset="false" data-icon="none">
-					<h2 class="lugia psychc flying">Lugia</h2>
+					<h2 class="lugia psychc flying">Haunter</h2>
+					<div class="ui-grid-a">
+						<div class="ui-block-a">
+							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#fire_spin" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="fire">Fire Spin</a>
+						</div>
+						<div class="ui-block-a">
+							<a href="#thunder" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="electric">Thunder</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#wing_attack" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="flying">Wing Attack</a>
+						</div>
+					</div>
+				</li>
+				<li data-role="collapsible" data-inset="false" data-icon="none">
+					<h2 class="lugia psychc flying">Nidoqueen</h2>
+					<div class="ui-grid-a">
+						<div class="ui-block-a">
+							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#fire_spin" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="fire">Fire Spin</a>
+						</div>
+						<div class="ui-block-a">
+							<a href="#thunder" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="electric">Thunder</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#wing_attack" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="flying">Wing Attack</a>
+						</div>
+					</div>
+				</li>
+				<li data-role="collapsible" data-inset="false" data-icon="none">
+					<h2 class="lugia psychc flying">Dragonite</h2>
+					<div class="ui-grid-a">
+						<div class="ui-block-a">
+							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#fire_spin" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="fire">Fire Spin</a>
+						</div>
+						<div class="ui-block-a">
+							<a href="#thunder" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="electric">Thunder</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#wing_attack" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="flying">Wing Attack</a>
+						</div>
+					</div>
+				</li>
+				<li data-role="collapsible" data-inset="false" data-icon="none">
+					<h2 class="lugia psychc flying">Lapras</h2>
+					<div class="ui-grid-a">
+						<div class="ui-block-a">
+							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#fire_spin" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="fire">Fire Spin</a>
+						</div>
+						<div class="ui-block-a">
+							<a href="#thunder" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="electric">Thunder</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#wing_attack" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="flying">Wing Attack</a>
+						</div>
+					</div>
+				</li>
+				<li data-role="collapsible" data-inset="false" data-icon="none">
+					<h2 class="lugia psychc flying">Gyarados</h2>
 					<div class="ui-grid-a">
 						<div class="ui-block-a">
 							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
@@ -64,8 +132,13 @@
 						</div>
 					</div>
 				</li>
+			</ul>
+
+			<h4 class="ui-bar ui-bar-a ui-corner-all">Secondary Team</h4>
+			<p>These are secondary Pokemons I might train during my journey.</p>
+			<ul data-role="listview" data-inset="true" class="pokemon-team">
 				<li data-role="collapsible" data-inset="false" data-icon="none">
-					<h2 class="lugia psychc flying">Lugia</h2>
+					<h2 class="lugia psychc flying">Steelix</h2>
 					<div class="ui-grid-a">
 						<div class="ui-block-a">
 							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
@@ -82,7 +155,7 @@
 					</div>
 				</li>
 				<li data-role="collapsible" data-inset="false" data-icon="none">
-					<h2 class="lugia psychc flying">Lugia</h2>
+					<h2 class="lugia psychc flying">Kingdra</h2>
 					<div class="ui-grid-a">
 						<div class="ui-block-a">
 							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
@@ -99,7 +172,7 @@
 					</div>
 				</li>
 				<li data-role="collapsible" data-inset="false" data-icon="none">
-					<h2 class="lugia psychc flying">Lugia</h2>
+					<h2 class="lugia psychc flying">Blastoise</h2>
 					<div class="ui-grid-a">
 						<div class="ui-block-a">
 							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
@@ -116,7 +189,41 @@
 					</div>
 				</li>
 				<li data-role="collapsible" data-inset="false" data-icon="none">
-					<h2 class="lugia psychc flying">Lugia</h2>
+					<h2 class="lugia psychc flying">Articuno</h2>
+					<div class="ui-grid-a">
+						<div class="ui-block-a">
+							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#fire_spin" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="fire">Fire Spin</a>
+						</div>
+						<div class="ui-block-a">
+							<a href="#thunder" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="electric">Thunder</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#wing_attack" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="flying">Wing Attack</a>
+						</div>
+					</div>
+				</li>
+				<li data-role="collapsible" data-inset="false" data-icon="none">
+					<h2 class="lugia psychc flying">Suicune</h2>
+					<div class="ui-grid-a">
+						<div class="ui-block-a">
+							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#fire_spin" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="fire">Fire Spin</a>
+						</div>
+						<div class="ui-block-a">
+							<a href="#thunder" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="electric">Thunder</a>
+						</div>
+						<div class="ui-block-b">
+							<a href="#wing_attack" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="flying">Wing Attack</a>
+						</div>
+					</div>
+				</li>
+				<li data-role="collapsible" data-inset="false" data-icon="none">
+					<h2 class="lugia psychc flying">Mewtwo</h2>
 					<div class="ui-grid-a">
 						<div class="ui-block-a">
 							<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all" data-rel="popup" data-transition="pop" class="water">Waterfall</a>
