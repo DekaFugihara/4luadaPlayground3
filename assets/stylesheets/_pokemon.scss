@@ -15,6 +15,7 @@
     }
     h2 {
       margin:0;
+      i { float:right; }
       a { border:none; }
     }
   }
@@ -40,7 +41,6 @@
 ------------------------------------------------------------------------------------------------ */
 .pokemon-type-box {
   .bug, .dragon, .dark, .electric, .fight, .fire, .flying, .ghost, .ground, .grass, .ice, .normal, .poison, .psychic, .rock, .steel, .unknown, .water {
-    float:right;
     display:inline-block;
     height:18px;
     width:36px;
