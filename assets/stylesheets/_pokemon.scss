@@ -25,7 +25,12 @@
 ------------------------------------------------------------------------------------------------ */
 .pokemon-detail {
   .pokemon-image {
+    float:left;
+    width:100px;
+    height:130px;
+    margin:0 15px 20px 0;
     text-align:center;
+
     img {
       display:inline-block;
       width:100px;
