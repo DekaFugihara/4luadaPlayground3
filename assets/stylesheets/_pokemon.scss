@@ -24,7 +24,7 @@
 /* POKEMON DETAIL
 ------------------------------------------------------------------------------------------------ */
 .pokemon-detail {
-  .pokemon-image {
+  p.pokemon-image {
     float:left;
     width:100px;
     height:130px;
@@ -36,12 +36,6 @@
       width:100px;
       width:100px;
     }
-  }
-  .pokemon-type-box {
-    text-align:center;
-  }
-  .pokemon-description {
-    clear:both;
   }
 }
 
