@@ -2,6 +2,7 @@
 /* 4luada Playground v.3  - POKEMON */
 /************************************/
 /* POKEMON TEAM                     */
+/* POKEMON TYPES                    */
 /* POKEMON MOVES                    */
 /************************************/
 
@@ -19,21 +20,38 @@
   }
 }
 
+/* POKEMON DETAIL
+------------------------------------------------------------------------------------------------ */
+.pokemon-detail {
+  .pokemon-image {
+    text-align:center;
+    img {
+      display:inline-block;
+      width:100px;
+      width:100px;
+    }
+  }
+  .pokemon-type-box {
+    text-align:center;
+  }
+}
+
 /* POKEMON TYPES
 ------------------------------------------------------------------------------------------------ */
-.pokemon-teams {
+.pokemon-type-box {
   .bug, .dragon, .dark, .electric, .fight, .fire, .flying, .ghost, .ground, .grass, .ice, .normal, .poison, .psychic, .rock, .steel, .unknown, .water {
     float:right;
     display:inline-block;
     height:18px;
     width:36px;
+    padding:0 3px;
     border:1px solid #FFF;
-    border-radius:3px;
+    border-radius:4px;
     line-height:18px;
     color:#FFF;
     font-family:Verdana, Geneva, sans-serif;
     font-size:8px;
-    font-weight:normal;
+    font-style:normal;
     text-shadow:1px 1px 0 #000;
     text-align:center;
   }
