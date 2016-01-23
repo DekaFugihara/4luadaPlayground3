@@ -11,7 +11,8 @@
     width:30px;
     height:30px;
     margin-top:-15px;
-    background-position:center center;
+    text-indent:-5px;
+    background-image:none;
   }
 }
 
@@ -37,20 +38,20 @@
 }
 
 h2.dragonite.ui-icon-pokemon a:after {
-  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/dragonite_m.png');
+  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/dragonite_m.png');
 }
 h2.gyarados.ui-icon-pokemon a:after {
-  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/gyarados_m.png');
+  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/gyarados_m.png');
 }
 h2.haunter.ui-icon-pokemon a:after {
-  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/haunter_m.png');
+  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/haunter_m.png');
 }
 h2.lapras.ui-icon-pokemon a:after {
-  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/lapras_m.png');
+  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/lapras_m.png');
 }
 h2.lugia.ui-icon-pokemon a:after {
-  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/lugia_m.png');
+  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/lugia_m.png');
 }
 h2.nidoqueen.ui-icon-pokemon a:after {
-  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/nidoqueen_m.png');
+  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/nidoqueen_m.png');
 }
