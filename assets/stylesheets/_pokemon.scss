@@ -1,0 +1,56 @@
+/************************************/
+/* 4luada Playground v.3  - POKEMON */
+/************************************/
+/* POKEMON TEAM                     */
+/* POKEMON MOVES                    */
+/************************************/
+
+.ui-btn-icon-left.ui-icon-pokemon {
+  padding-left:50px;
+  &:after {
+    width:30px;
+    height:30px;
+    margin-top:-15px;
+    background-position:center center;
+  }
+}
+
+.pokemon-teams {
+  .dragon, .flying, .ghost, .ground, .ice, .poison, .psychic, .rock, .steel, .water {
+    float:right;
+    display:inline-block;
+  }
+}
+
+/* POKEMON TEAM
+------------------------------------------------------------------------------------------------ */
+.pokemon-teams {
+  ul.pokemon-team {
+    li {
+      padding:0;
+    }
+    h2 {
+      margin:0;
+      a { border:none; }
+    }
+  }
+}
+
+h2.dragonite a.ui-icon-pokemon:after {
+  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/dragonite_m.png');
+}
+h2.gyarados a.ui-icon-pokemon:after {
+  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/gyarados_m.png');
+}
+h2.haunter a.ui-icon-pokemon:after {
+  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/haunter_m.png');
+}
+h2.lapras a.ui-icon-pokemon:after {
+  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/lapras_m.png');
+}
+h2.lugia a.ui-icon-pokemon:after {
+  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/lugia_m.png');
+}
+h2.nidoqueen a.ui-icon-pokemon:after {
+  background-image:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/nidoqueen_m.png');
+}
