@@ -7,7 +7,7 @@
 
 .ui-icon-pokemon .ui-btn-icon-left {
   padding-left:50px;
-  a:after {
+  &:after {
     width:30px;
     height:30px;
     margin-top:-15px;
