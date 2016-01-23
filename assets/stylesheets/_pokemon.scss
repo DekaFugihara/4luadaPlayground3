@@ -19,6 +19,9 @@
       a { border:none; }
     }
   }
+  .pokemon-detail-btn {
+    a { background-color:#F1F1F1; }
+  }
 }
 
 /* POKEMON DETAIL
@@ -78,6 +81,13 @@
   .unknown { background:#68A090; &:before { content:"???"; } }
   .water { background:#7096F1; &:before { content:"WATER"; } }
 }
+.pokemon-moves {
+  a.dark { background-color:#A9998E; }
+  a.electric { background-color:#FDE999; }
+  a.ghost { background-color:#A99DBD; }
+  a.poison { background-color:#B9A0B9; }
+}
+
 
 /* POKEMON ICONS
 ------------------------------------------------------------------------------------------------ */

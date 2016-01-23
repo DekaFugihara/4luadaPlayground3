@@ -30,20 +30,20 @@
 			<p>This team is the one that will conquer all Johto gyms, the Elite Four and the Champion.</p>
 			<ul data-role="listview" data-inset="true" class="pokemon-team">
 				<li data-role="collapsible" data-inset="false" data-icon="none" data-collapsible-icon="none" data-expanded-icon="none">
-					<h2 class="ui-icon-pokemon haunter pokemon-type-box">Haunter <i class="ghost"></i><i class="poison"></i></h2>
+					<h2 class="ui-icon-pokemon haunter pokemon-type-box">Haunter <i class="poison"></i><i class="ghost"></i></h2>
 					<div>
 						<div class="ui-grid-a pokemon-moves">
 							<div class="ui-block-a pokemon-move">
-								<a href="#waterfall" class="ui-shadow ui-btn ui-corner-all ghost" data-rel="popup" data-transition="pop">Confuse Ray</a>
+								<a href="#confuse_ray" class="ui-shadow ui-btn ui-corner-all ghost" data-rel="popup" data-transition="pop">Confuse Ray</a>
 							</div>
 							<div class="ui-block-b pokemon-move">
-								<a href="#fire_spin" class="ui-shadow ui-btn ui-corner-all ghost" data-rel="popup" data-transition="pop">Shadow Ball</a>
+								<a href="#shadow_ball" class="ui-shadow ui-btn ui-corner-all ghost" data-rel="popup" data-transition="pop">Shadow Ball</a>
 							</div>
 							<div class="ui-block-a pokemon-move">
-								<a href="#thunder" class="ui-shadow ui-btn ui-corner-all psychic" data-rel="popup" data-transition="pop">Sludge Bomb</a>
+								<a href="#sludge_bomb" class="ui-shadow ui-btn ui-corner-all psychic" data-rel="popup" data-transition="pop">Sludge Bomb</a>
 							</div>
 							<div class="ui-block-b pokemon-move">
-								<a href="#wing_attack" class="ui-shadow ui-btn ui-corner-all dark" data-rel="popup" data-transition="pop">Dark Pulse</a>
+								<a href="#thunderbolt" class="ui-shadow ui-btn ui-corner-all electric" data-rel="popup" data-transition="pop">Thunderbolt</a>
 							</div>						
 						</div>
 						<div class="ui-grid-solo pokemon-detail-btn">
@@ -251,6 +251,71 @@
 	</div>
 
 	<!-- Move Descriptions -->
+	<div data-role="popup" id="confuse_ray" style="max-width:300px;" class="pokemon-move-detail" data-potision-to="window">
+		<div data-role="header">
+			<h1>Confuse Ray</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<p>Confuse Ray causes the target to become confused. It will fail if the target has a substitute, is already confused, has the Ability Own Tempo or protected by Safeguard.</p>
+			<ul>
+				<li class="pokemon-type-box"><b>Type:</b> <i class="ghost"></i></li>
+				<li><b>Category:</b> Status</li>
+				<li>Power: --</li>
+				<li>Accuracy: 100%</li>
+				<li>PP: 10</li>
+			</ul>
+		</div>
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	</div>
+	<div data-role="popup" id="shadow_ball" style="max-width:300px;" class="pokemon-move-detail" data-potision-to="window">
+		<div data-role="header">
+			<h1>Shadow Ball</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<p>Shadow Ball deals damage and has a 20% chance of lowering the target's Special Defense by one stage.</p>
+			<ul>
+				<li class="pokemon-type-box"><b>Type:</b> <i class="ghost"></i></li>
+				<li><b>Category:</b> Special</li>
+				<li>Power: 80</li>
+				<li>Accuracy: 100%</li>
+				<li>PP: 15</li>
+			</ul>
+		</div>
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	</div>
+	<div data-role="popup" id="sludge_bomb" style="max-width:300px;" class="pokemon-move-detail" data-potision-to="window">
+		<div data-role="header">
+			<h1>Sludge Bomb</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<p>Sludge Bomb inflicts damage and has a 30% chance of poisoning the target.</p>
+			<ul>
+				<li class="pokemon-type-box"><b>Type:</b> <i class="poison"></i></li>
+				<li><b>Category:</b> Special</li>
+				<li>Power: 90</li>
+				<li>Accuracy: 100%</li>
+				<li>PP: 10</li>
+			</ul>
+		</div>
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	</div>
+	<div data-role="popup" id="thunderbolt" style="max-width:300px;" class="pokemon-move-detail" data-potision-to="window">
+		<div data-role="header">
+			<h1>Thunderbolt</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<p>Thunderbolt does damage and has a 10% chance of paralyzing the target.</p>
+			<ul>
+				<li class="pokemon-type-box"><b>Type:</b> <i class="electric"></i></li>
+				<li><b>Category:</b> Special</li>
+				<li>Power: 95</li>
+				<li>Accuracy: 100%</li>
+				<li>PP: 15</li>
+			</ul>
+		</div>
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	</div>
+
 	<div data-role="popup" id="waterfall" style="max-width:300px;" class="pokemon-move-detail" data-potision-to="window">
 		<div data-role="header">
 			<h1 class="water">Waterfall</h1>
