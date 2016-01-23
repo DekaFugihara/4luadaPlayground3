@@ -5,24 +5,6 @@
 /* POKEMON MOVES                    */
 /************************************/
 
-.ui-icon-pokemon .ui-btn-icon-left {
-  padding-left:50px;
-  &:after {
-    width:30px;
-    height:30px;
-    margin-top:-15px;
-    text-indent:-5px;
-    background-image:none;
-  }
-}
-
-.pokemon-teams {
-  .dragon, .flying, .ghost, .ground, .ice, .poison, .psychic, .rock, .steel, .water {
-    float:right;
-    display:inline-block;
-  }
-}
-
 /* POKEMON TEAM
 ------------------------------------------------------------------------------------------------ */
 .pokemon-teams {
@@ -37,21 +19,63 @@
   }
 }
 
-h2.dragonite.ui-icon-pokemon a:after {
-  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/dragonite_m.png');
+/* POKEMON TYPES
+------------------------------------------------------------------------------------------------ */
+.pokemon-teams {
+  .bug, .dragon, .dark, .electric, .fight, .fire, .flying, .ghost, .ground, .grass, .ice, .normal, .poison, .psychic, .rock, .steel, .unknown, .water {
+    float:right;
+    display:inline-block;
+    height:18px;
+    width:36px;
+    border:1px solid #FFF;
+    border-radius:3px;
+    line-height:18px;
+    color:#FFF;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:8px;
+    font-weight:normal;
+    text-shadow:1px 1px 0 #000;
+    text-align:center;
+  }
+
+  .bug { background:#A9B923; &:before { content:"BUG"; } }
+  .dragon { background:#733DF8; &:before { content:"DRAGON"; } }
+  .dark { background:#705848; &:before { content:"DARK"; } }
+  .electric { background:#F8D33F; &:before { content:"ELECTR"; } }
+  .fight { background:#C33931; &:before { content:"FIGHT"; } }
+  .fire { background:#F08234; &:before { content:"FIRE"; } }
+  .flying { background:#A890F0; &:before { content:"FLYING"; } }
+  .ghost { background:#705898; &:before { content:"GHOST"; } }
+  .grass { background:#86CE63; &:before { content:"GRASS"; } }
+  .ground { background:#E0C068; &:before { content:"GROUND"; } }
+  .ice { background:#A1DCDC; &:before { content:"ICE"; } }
+  .normal { background:#A8A878; &:before { content:"NORMAL"; } }
+  .poison { background:#A040A0; &:before { content:"POISON"; } }
+  .psychic { background:#F85988; &:before { content:"PSYCHC"; } }
+  .rock { background:#B9A13A; &:before { content:"ROCK"; } }
+  .steel { background:#B8B8D0; &:before { content:"STEEL"; } }
+  .unknown { background:#68A090; &:before { content:"???"; } }
+  .water { background:#7096F1; &:before { content:"WATER"; } }
 }
-h2.gyarados.ui-icon-pokemon a:after {
-  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/gyarados_m.png');
+
+/* POKEMON ICONS
+------------------------------------------------------------------------------------------------ */
+.ui-icon-pokemon .ui-btn-icon-left {
+  padding-left:50px;
+  &:after {
+    width:30px;
+    height:30px;
+    margin-top:-15px;
+    text-indent:-5px;
+    background-image:none;
+  }
 }
-h2.haunter.ui-icon-pokemon a:after {
-  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/haunter_m.png');
-}
-h2.lapras.ui-icon-pokemon a:after {
-  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/lapras_m.png');
-}
-h2.lugia.ui-icon-pokemon a:after {
-  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/lugia_m.png');
-}
-h2.nidoqueen.ui-icon-pokemon a:after {
-  content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/nidoqueen_m.png');
+
+h2.ui-icon-pokemon {
+  &.dragonite a:after { content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/dragonite_m.png'); }
+  &.gyarados a:after { content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/gyarados_m.png'); }
+  &.haunter a:after { content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/haunter_m.png'); }
+  &.lapras a:after { content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/lapras_m.png'); }
+  &.lugia a:after { content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/lugia_m.png'); }
+  &.nidoqueen a:after { content:url('http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Pokemon/mini/nidoqueen_m.png'); }
 }
