@@ -82,10 +82,21 @@
   .water { background:#7096F1; &:before { content:"WATER"; } }
 }
 .pokemon-moves {
-  a.dark { background-color:#A9998E; }
-  a.electric { background-color:#FDE999; }
-  a.ghost { background-color:#A99DBD; }
-  a.poison { background-color:#B9A0B9; }
+  a.bug { background-color:rgb(212, 220, 145); }
+  a.dark { background-color:rgb(184, 172, 164); }
+  a.dragon { background-color:rgb(185, 158, 252); }
+  a.electric { background-color:rgb(252, 233, 159); }
+  a.flying { background-color:rgb(212, 200, 248); }
+  a.ghost { background-color:rgb(184, 172, 204); }
+  a.grass { background-color:rgb(195, 231, 177); }
+  a.ground { background-color:rgb(240, 224, 180); }
+  a.ice { background-color:rgb(208, 238, 238); }
+  a.normal { background-color:rgb(212, 212, 188); }
+  a.poison { background-color:rgb(208, 160, 208); }
+  a.psychic { background-color:rgb(252, 172, 196); }
+  a.rock { background-color:rgb(220, 208, 157); }
+  a.steel { background-color:rgb(220, 220, 232); }
+  a.water { background-color:rgb(184, 203, 248); }
 }
 
 
