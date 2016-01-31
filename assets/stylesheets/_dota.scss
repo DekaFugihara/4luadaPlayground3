@@ -287,13 +287,18 @@
       text-shadow:none;
     }
     tbody tr {
+      td {
+        background:#E8E8E8;
+      }
       &.s1 td:nth-child(1),
       &.s2 td:nth-child(2),
       &.s3 td:nth-child(3),
       &.s4 td:nth-child(4),
       &.sx td:last-child {
+        padding:5px 0;
         background:#A6CDE4;
         font-size:.8em;
+        text-align:center;
       }
       &.s1 td:not(:nth-child(1)):before{ content:initial; }
       &.s2 td:not(:nth-child(2)):before{ content:initial; }
