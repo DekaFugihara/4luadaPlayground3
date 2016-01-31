@@ -9,6 +9,10 @@
 /* STATS
 ------------------------------------------------------------------------------------------------ */
 .dota-stats {
+  float:left;
+  width:100%;
+  margin-bottom:30px;
+  
   .ui-block-b .ui-bar-a {
     margin-left:-1px;
   }
@@ -56,7 +60,7 @@
       &.def:before { background-position:0 -71px; }
     }
 
-    &, li.primary:after {
+    li.primary:after {
       content:'';
       display:block;
       width:40px;
