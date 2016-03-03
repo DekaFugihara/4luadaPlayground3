@@ -89,163 +89,167 @@
 
       a {
         display:block;
-        width:50px;
-        height:38px;
+        width:48px;
+        height:35px;
         border:1px solid #CCC;
         margin:0 auto;
-        background-image:url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/dota_items.jpg");
+        background-image:url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/dota_items2.png");
         text-indent:-9999px;
         border-radius:5px;
       }
 
       a {
-        &.clarity { background-position:0 0; }
-        &.mango { background-position:0 -38px; }
-        &.tango { background-position:0 -76px; }
-        &.healing { background-position:0 -114px; }
-        &.smoke { background-position:0 -152px; }
-        &.portal { background-position:0 -190px; }
-        &.dust { background-position:0 -228px; }
-        &.courier { background-position:0 -266px; }
-        &.fcourier { background-position:0 -304px; }
-        &.ward { background-position:0 -342px; }
-        &.sentry { background-position:0 -380px; }
-        &.bottle { background-position:0 -418px; }
+        &.clarity  { background-position:-1px -1px; }
+        &.faerie   { background-position:-1px -40px; }
+        &.mango    { background-position:-1px -79px; }
+        &.tango    { background-position:-1px -118px; }
+        &.healing  { background-position:-1px -157px; }
+        &.smoke    { background-position:-1px -196px; }
+        &.portal   { background-position:-1px -235px; }
+        &.dust     { background-position:-1px -274px; }
+        &.courier  { background-position:-1px -313px; }
+        &.fcourier { background-position:-1px -352px; }
+        &.ward     { background-position:-1px -391px; }
+        &.sentry   { background-position:-1px -430px; }
+        &.bottle   { background-position:-1px -469px; }
 
-        &.branch { background-position:-60px 0; }
-        &.gauntlets { background-position:-60px -38px; }
-        &.slippers { background-position:-60px -76px; }
-        &.mantle { background-position:-60px -114px; }
-        &.circlet { background-position:-60px -152px; }
-        &.belt { background-position:-60px -190px; }
-        &.band { background-position:-60px -228px; }
-        &.robe { background-position:-60px -266px; }
-        &.ogre { background-position:-60px -304px; }
-        &.alacrity { background-position:-60px -342px; }
-        &.wizardry { background-position:-60px -380px; }
+        &.branch    { background-position:-53px -1px; }
+        &.gauntlets { background-position:-53px -40px; }
+        &.slippers  { background-position:-53px -79px; }
+        &.mantle    { background-position:-53px -118px; }
+        &.circlet   { background-position:-53px -157px; }
+        &.belt      { background-position:-53px -196px; }
+        &.band      { background-position:-53px -235px; }
+        &.robe      { background-position:-53px -274px; }
+        &.ogre      { background-position:-53px -313px; }
+        &.alacrity  { background-position:-53px -352px; }
+        &.wizardry  { background-position:-53px -391px; }
+        &.greaves   { background-position:-53px -430px; }
+        &.octarine  { background-position:-53px -469px; }
 
-        &.ring { background-position:-120px 0; }
-        &.stout { background-position:-120px -38px; }
-        &.quelling { background-position:-120px -76px; }
-        &.venom { background-position:-120px -114px; }
-        &.blades { background-position:-120px -152px; }
-        &.chainmail { background-position:-120px -190px; }
-        &.quarterstaff { background-position:-120px -228px; }
-        &.helm { background-position:-120px -266px; }
-        &.broadsword { background-position:-120px -304px; }
-        &.claymore { background-position:-120px -342px; }
-        &.javelin { background-position:-120px -380px; }
-        &.mithril { background-position:-120px -418px; }
+        &.ring         { background-position:-105px -1px }
+        &.stout        { background-position:-105px -40px }
+        &.quelling     { background-position:-105px -79px }
+        &.venom        { background-position:-105px -118px; }
+        &.blades       { background-position:-105px -157px; }
+        &.chainmail    { background-position:-105px -196px; }
+        &.quarterstaff { background-position:-105px -235px; }
+        &.helm         { background-position:-105px -274px; }
+        &.broadsword   { background-position:-105px -313px; }
+        &.claymore     { background-position:-105px -352px; }
+        &.javelin      { background-position:-105px -391px; }
+        &.mithril      { background-position:-105px -430px; }
 
-        &.stick { background-position:-180px 0; }
-        &.sage { background-position:-180px -38px; }
-        &.regen { background-position:-180px -76px; }
-        &.boots { background-position:-180px -114px; }
-        &.gloves { background-position:-180px -152px; }
-        &.cloak { background-position:-180px -190px; }
-        &.rhealth { background-position:-180px -228px; }
-        &.void { background-position:-180px -266px; }
-        &.gem { background-position:-180px -304px; }
-        &.morbid { background-position:-180px -342px; }
-        &.amulet { background-position:-180px -380px; }
-        &.ghost { background-position:-180px -418px; }
-        &.blink { background-position:-180px -456px; }
+        &.stick   { background-position:-157px -1px }
+        &.sage    { background-position:-157px -40px }
+        &.regen   { background-position:-157px -79px }
+        &.boots   { background-position:-157px -118px; }
+        &.gloves  { background-position:-157px -157px; }
+        &.cloak   { background-position:-157px -196px; }
+        &.rhealth { background-position:-157px -235px; }
+        &.void    { background-position:-157px -274px; }
+        &.gem     { background-position:-157px -313px; }
+        &.morbid  { background-position:-157px -352px; }
+        &.amulet  { background-position:-157px -391px; }
+        &.ghost   { background-position:-157px -430px; }
+        &.blink   { background-position:-157px -469px; }
 
-        &.wand { background-position:-240px 0; }
-        &.null { background-position:-240px -38px; }
-        &.wraith { background-position:-240px -76px; }
-        &.poor { background-position:-240px -114px; }
-        &.bracer { background-position:-240px -152px; }
-        &.soulring { background-position:-240px -190px; }
-        &.phase { background-position:-240px -228px; }
-        &.treads { background-position:-240px -266px; }
-        &.oblivion { background-position:-240px -304px; }
-        &.perseverance { background-position:-240px -342px; }
-        &.midas { background-position:-240px -380px; }
-        &.travel { background-position:-240px -418px; }
-        &.moon { background-position:-240px -456px; }
+        &.wand         { background-position:-209px -1px }
+        &.null         { background-position:-209px -40px }
+        &.wraith       { background-position:-209px -79px }
+        &.poor         { background-position:-209px -118px; }
+        &.bracer       { background-position:-209px -157px; }
+        &.soulring     { background-position:-209px -196px; }
+        &.phase        { background-position:-209px -235px; }
+        &.treads       { background-position:-209px -274px; }
+        &.oblivion     { background-position:-209px -313px; }
+        &.perseverance { background-position:-209px -352px; }
+        &.midas        { background-position:-209px -391px; }
+        &.travel       { background-position:-209px -430px; }
+        &.moon         { background-position:-209px -469px; }
 
-        &.basilius { background-position:-300px 0; }
-        &.headdress { background-position:-300px -38px; }
-        &.buckler { background-position:-300px -76px; }
-        &.urn { background-position:-300px -114px; }
-        &.tranquil { background-position:-300px -152px; }
-        &.aquila { background-position:-300px -190px; }
-        &.medallion { background-position:-300px -228px; }
-        &.arcane { background-position:-300px -266px; }
-        &.drum { background-position:-300px -304px; }
-        &.mekansm { background-position:-300px -342px; }
-        &.vladmir { background-position:-300px -380px; }
-        &.pipe { background-position:-300px -418px; }
-        &.greaves { background-position:-300px -456px; }
+        &.basilius  { background-position:-261px -1px }
+        &.talon     { background-position:-261px -40px }
+        &.headdress { background-position:-261px -79px }
+        &.buckler   { background-position:-261px -118px; }
+        &.urn       { background-position:-261px -157px; }
+        &.tranquil  { background-position:-261px -196px; }
+        &.aquila    { background-position:-261px -235px; }
+        &.medallion { background-position:-261px -274px; }
+        &.arcane    { background-position:-261px -313px; }
+        &.drum      { background-position:-261px -352px; }
+        &.mekansm   { background-position:-261px -391px; }
+        &.vladmir   { background-position:-261px -430px; }
+        &.pipe      { background-position:-261px -469px; }
 
-        &.glimmer { background-position:-360px 0; }
-        &.force { background-position:-360px -38px; }
-        &.veil { background-position:-360px -76px; }
-        &.necronomicon { background-position:-360px -114px; }
-        &.dagon { background-position:-360px -152px; }
-        &.eul { background-position:-360px -190px; }
-        &.solar { background-position:-360px -228px; }
-        &.rod { background-position:-360px -266px; }
-        &.orchid { background-position:-360px -304px; }
-        &.aghanim { background-position:-360px -342px; }
-        &.refresher { background-position:-360px -380px; }
-        &.vyse { background-position:-360px -418px; }
-        &.octarine { background-position:-360px -456px; }
+        &.glimmer      { background-position:-360px -1px }
+        &.force        { background-position:-360px -40px }
+        &.veil         { background-position:-360px -79px }
+        &.aether       { background-position:-360px -118px; }
+        &.necronomicon { background-position:-360px -157px; }
+        &.dagon        { background-position:-360px -196px; }
+        &.eul          { background-position:-360px -235px; }
+        &.solar        { background-position:-360px -274px; }
+        &.rod          { background-position:-360px -313px; }
+        &.orchid       { background-position:-360px -352px; }
+        &.aghanim      { background-position:-360px -391px; }
+        &.refresher    { background-position:-360px -430px; }
+        &.vyse         { background-position:-360px -469px; }
 
-        &.crystalys { background-position:-420px 0; }
-        &.mordiggian { background-position:-420px -38px; }
-        &.shadowblade { background-position:-420px -76px; }
-        &.basher { background-position:-420px -114px; }
-        &.battlefury { background-position:-420px -152px; }
-        &.ethereal { background-position:-420px -190px; }
-        &.silver { background-position:-420px -228px; }
-        &.radiance { background-position:-420px -266px; }
-        &.monkey { background-position:-420px -304px; }
-        &.daedalus { background-position:-420px -342px; }
-        &.butterfly { background-position:-420px -380px; }
-        &.divine { background-position:-420px -418px; }
-        &.abyssal { background-position:-420px -456px; }
+        &.crystalys   { background-position:-420px -1px }
+        &.mordiggian  { background-position:-420px -40px }
+        &.shadowblade { background-position:-420px -79px }
+        &.basher      { background-position:-420px -118px; }
+        &.battlefury  { background-position:-420px -157px; }
+        &.ethereal    { background-position:-420px -196px; }
+        &.silver      { background-position:-420px -235px; }
+        &.radiance    { background-position:-420px -274px; }
+        &.monkey      { background-position:-420px -313px; }
+        &.daedalus    { background-position:-420px -352px; }
+        &.butterfly   { background-position:-420px -391px; }
+        &.divine      { background-position:-420px -430px; }
+        &.abyssal     { background-position:-420px -469px; }
 
-        &.hood { background-position:-480px 0; }
-        &.vanguard { background-position:-480px -38px; }
-        &.blademail { background-position:-480px -76px; }
-        &.soulbooster { background-position:-480px -114px; }
-        &.crimson { background-position:-480px -152px; }
-        &.bkb { background-position:-480px -190px; }
-        &.lotus { background-position:-480px -228px; }
-        &.shivas { background-position:-480px -266px; }
-        &.bloodstone { background-position:-480px -304px; }
-        &.manta { background-position:-480px -342px; }
-        &.linkens { background-position:-480px -380px; }
-        &.assault { background-position:-480px -418px; }
-        &.tarrasque { background-position:-480px -456px; }
+        &.hood        { background-position:-480px -1px }
+        &.vanguard    { background-position:-480px -40px }
+        &.blademail   { background-position:-480px -79px }
+        &.soulbooster { background-position:-480px -118px; }
+        &.crimson     { background-position:-480px -157px; }
+        &.bkb         { background-position:-480px -196px; }
+        &.lotus       { background-position:-480px -235px; }
+        &.shivas      { background-position:-480px -274px; }
+        &.bloodstone  { background-position:-480px -313px; }
+        &.manta       { background-position:-480px -352px; }
+        &.linkens     { background-position:-480px -391px; }
+        &.assault     { background-position:-480px -430px; }
+        &.tarrasque   { background-position:-480px -469px; }
 
-        &.madness { background-position:-540px 0; }
-        &.dominator { background-position:-540px -38px; }
-        &.sange { background-position:-540px -76px; }
-        &.yasha { background-position:-540px -114px; }
-        &.maelstrom { background-position:-540px -152px; }
-        &.diffusal { background-position:-540px -190px; }
-        &.desolator { background-position:-540px -228px; }
-        &.halberd { background-position:-540px -266px; }
-        &.sangeyasha { background-position:-540px -304px; }
-        &.skadi { background-position:-540px -342px; }
-        &.mjollnir { background-position:-540px -380px; }
-        &.satanic { background-position:-540px -418px; }
+        &.madness    { background-position:-540px -1px }
+        &.dominator  { background-position:-540px -40px }
+        &.dragon     { background-position:-540px -79px }
+        &.sange      { background-position:-540px -118px; }
+        &.yasha      { background-position:-540px -157px; }
+        &.maelstrom  { background-position:-540px -196px; }
+        &.diffusal   { background-position:-540px -235px; }
+        &.desolator  { background-position:-540px -274px; }
+        &.halberd    { background-position:-540px -313px; }
+        &.sangeyasha { background-position:-540px -352px; }
+        &.skadi      { background-position:-540px -391px; }
+        &.mjollnir   { background-position:-540px -430px; }
+        &.satanic    { background-position:-540px -469px; }
 
-        &.energy { background-position:-600px 0; }
-        &.point { background-position:-600px -38px; }
-        &.vitality { background-position:-600px -76px; }
-        &.platemail { background-position:-600px -114px; }
-        &.talisman { background-position:-600px -152px; }
-        &.hyperstone { background-position:-600px -190px; }
-        &.orb { background-position:-600px -228px; }
-        &.demon { background-position:-600px -266px; }
-        &.mystic { background-position:-600px -304px; }
-        &.reaver { background-position:-600px -342px; }
-        &.eaglesong { background-position:-600px -380px; }
-        &.sacred { background-position:-600px -418px; }
+        &.energy     { background-position:-600px -1px }
+        &.point      { background-position:-600px -40px }
+        &.vitality   { background-position:-600px -79px }
+        &.platemail  { background-position:-600px -118px; }
+        &.talisman   { background-position:-600px -157px; }
+        &.hyperstone { background-position:-600px -196px; }
+        &.orb        { background-position:-600px -235px; }
+        &.demon      { background-position:-600px -274px; }
+        &.mystic     { background-position:-600px -313px; }
+        &.reaver     { background-position:-600px -352px; }
+        &.eaglesong  { background-position:-600px -391px; }
+        &.sacred     { background-position:-600px -430px; }
       }
     }
   }
@@ -351,4 +355,10 @@
   .skill2 { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/bristleback_s2.png"); }
   .skill3 { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/bristleback_s3.png"); }
   .skill4 { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/bristleback_s4.png"); }
+}
+#dota2-drow {
+  .skill1 { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/drow_s1.png"); }
+  .skill2 { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/drow_s2.png"); }
+  .skill3 { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/drow_s3.png"); }
+  .skill4 { background-image:url("http://i772.photobucket.com/albums/yy5/4luada/4layouts/4luada%20Playground%202/Dota/Dota%20Skills/drow_s4.png"); }
 }
